@@ -36,6 +36,8 @@ GLuint OpenGLRender::compileShader(ShaderType type, const string &source)
 		}
 		return shader;
 	}
+	
+	return 0;
 }
 
 GLuint OpenGLRender::compileShaderFile(ShaderType type, const string &filename)
