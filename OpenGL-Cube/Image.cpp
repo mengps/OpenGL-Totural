@@ -1,4 +1,4 @@
-#include "Image.h"
+﻿#include "Image.h"
 
 #ifndef STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_IMPLEMENTATION

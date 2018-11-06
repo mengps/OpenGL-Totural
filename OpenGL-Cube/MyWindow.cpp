@@ -1,11 +1,11 @@
-#include "MyWindow.h"
+ï»¿#include "MyWindow.h"
 #include "MyRender.h"
 #include <iostream>
 
 MyWindow::MyWindow()
 {
 	m_render = new MyRender();
-	//³õÊ¼»¯Îªµ¥Î»ËÄÔªÊı
+	//åˆå§‹åŒ–ä¸ºå•ä½å››å…ƒæ•°
 	m_rotation = glm::quat(1.0f, 0.0f, 0.0f, 0.0f);
 }
 
@@ -48,7 +48,7 @@ void MyWindow::mouseReleasedEvent(int button, int mods)
 		m_rotateAxis = glm::normalize(m_rotateAxis * m_angularSpeed + n * acc);
 		m_angularSpeed += acc;
 
-		std::cout << "Ğı×ªÖá: (" << m_rotateAxis.x << "," <<  m_rotateAxis.y << "," << m_rotateAxis.z << ")" << std::endl;
+		std::cout << "æ—‹è½¬è½´: (" << m_rotateAxis.x << "," <<  m_rotateAxis.y << "," << m_rotateAxis.z << ")" << std::endl;
 		std::cout << std::endl;
 	}
 }

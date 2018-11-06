@@ -1,4 +1,4 @@
-#ifndef OPENGLWINDOW_H
+﻿#ifndef OPENGLWINDOW_H
 #define OPENGLWINDOW_H
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>

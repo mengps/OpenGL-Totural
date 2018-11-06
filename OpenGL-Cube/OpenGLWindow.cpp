@@ -1,4 +1,4 @@
-#include "OpenGLWindow.h"
+ï»¿#include "OpenGLWindow.h"
 #include <iostream>
 #include <sstream>
 
@@ -139,7 +139,7 @@ void OpenGLWindow::setWindowSize(int width, int height)
 
 void OpenGLWindow::exec()
 {
-	//´°¿ÚÆô¶¯Ê±ĞèÒª·¢ËÍÒ»¸ö´óĞ¡ÊÂ¼ş
+	//çª—å£å¯åŠ¨æ—¶éœ€è¦å‘é€ä¸€ä¸ªå¤§å°äº‹ä»¶
 	resizeEvent(600, 500);
 #ifdef _WIN32
 	m_lastTime = ::GetTickCount64();

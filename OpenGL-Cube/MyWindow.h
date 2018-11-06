@@ -1,4 +1,4 @@
-#ifndef MYWINDOW_H
+﻿#ifndef MYWINDOW_H
 #define MYWINDOW_H
 #include "OpenGLWindow.h"
 #include <glm/vec3.hpp>

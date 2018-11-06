@@ -1,9 +1,9 @@
-#include "MyRender.h"
+ï»¿#include "MyRender.h"
 #include "Image.h"
 #include <iostream>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-//Ê¹ÓÃglm::toMat4
+//ä½¿ç”¨glm::toMat4
 #ifndef GLM_ENABLE_EXPERIMENTAL
 #define GLM_ENABLE_EXPERIMENTAL
 #include <glm/gtx/quaternion.hpp>
@@ -35,7 +35,7 @@ void MyRender::render(const glm::quat &rotation)
 {
 	glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	/* //±ê×¼Ê¾Àý
+	/* //æ ‡å‡†ç¤ºä¾‹
 	glm::mat4 modelMatrix(1.0f);
 	modelMatrix = glm::translate(modelMatrix, glm::vec3(0.0f, 0.0f, -5.0f));
 	modelMatrix *= glm::toMat4(rotation);
