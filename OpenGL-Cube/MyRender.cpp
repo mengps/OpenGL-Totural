@@ -109,7 +109,7 @@ void MyRender::initializeGL()
 {
 	initializeShader();
 	initializeTexture();
-	initializeTriangle();
+	initializeCube();
 
 	glEnable(GL_CULL_FACE);
 	glEnable(GL_DEPTH_TEST);
@@ -176,7 +176,7 @@ void MyRender::initializeTexture()
 	else std::cout << "Open Image2 Error! ";
 }
 
-void MyRender::initializeTriangle()
+void MyRender::initializeCube()
 {
 	VertexData vertices[] =
 	{
