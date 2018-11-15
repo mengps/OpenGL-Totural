@@ -15,7 +15,7 @@ public:
 	void initializeGL();
 	void initializeShader();
 	void initializeTexture();
-	void initializeTriangle();
+	void initializeCube();
 
 private:
 	GLuint m_vao;
