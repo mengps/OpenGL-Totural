@@ -26,6 +26,13 @@ OpenGL-Cube
 ------
 
 
+OpenGL-Light
+
+基础光照系统
+
+------
+
+
 
 开发环境windows 7 VS 2013
 
