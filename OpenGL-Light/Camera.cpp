@@ -60,6 +60,8 @@ void Camera::rotate(RotateDirection direction, float angle)
 	else if (direction == Horizontal)
 		yaw += angle;
 
-	m_cameraFront = glm::normalize(
-		glm::vec3(cos(glm::radians(yaw)), sin(glm::radians(pitch)), sin(glm::radians(yaw))));
+	float x = cos(glm::radians(yaw));
+	float y = sin(glm::radians(pitch));
+	float z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+	m_cameraFront = glm::normalize(glm::vec3(x, y, z));
 }
