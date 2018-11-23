@@ -33,6 +33,13 @@ OpenGL-Light
 ------
 
 
+OpenGL-Material_Light
+
+基础材质贴图和多种光源
+
+------
+
+
 
 开发环境windows 7 VS 2013
 
