@@ -5,24 +5,26 @@
 ------
 
 
-* ### 安装、配置
- + glfw [GLFW下载](http://www.glfw.org/)
+### 安装、配置
+ - glfw [GLFW下载](http://www.glfw.org/)
 
- + glad [GLAD下载](https://glad.dav1d.de/)
+ - glad [GLAD下载](https://glad.dav1d.de/)
 
- + glm  [GLM下载](https://github.com/g-truc/glm/)
+ - glm  [GLM下载](https://github.com/g-truc/glm/)
 
 ------
 
 
-* ### 示例
- + OpenGL-Start 第一个窗口
+### 示例
+ - OpenGL-Start  第一个窗口
 
- + OpenGL-Triangle 旋转的三角形
+ - OpenGL-Triangle  旋转的三角形
 
- + OpenGL-Light 基础光照系统
+ - OpenGL-Light  自由旋转的立方体
 
- + OpenGL-Material_Light 基础材质贴图和多种光源
+ - OpenGL-Light  基础光照系统
+
+ - OpenGL-Material_Light  基础材质贴图和多种光源
 
 ------
 
