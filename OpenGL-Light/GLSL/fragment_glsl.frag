@@ -11,8 +11,7 @@ uniform vec3 lightPosition;
 
 void main(void)
 {
-	float strength = 0.2f;
-	vec3 ambient = lightColor * strength;
+	vec3 ambient = lightColor * 0.2f;
 
 	vec3 lightDir = normalize(lightPosition - vec3(fragPos));
 	float diff = max(dot(normalize(normal), lightDir), 0.0f);
