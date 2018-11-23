@@ -1,35 +1,35 @@
-# OpenGL-Totural
+ï»¿# OpenGL-Totural
 
-### OpenGLÏµÁĞ½Ì³ÌÔ´Âë
-
-------
-
-
-### °²×°¡¢ÅäÖÃ
- - glfw [GLFWÏÂÔØ](http://www.glfw.org/)
-
- - glad [GLADÏÂÔØ](https://glad.dav1d.de/)
-
- - glm  [GLMÏÂÔØ](https://github.com/g-truc/glm/)
+### OpenGLç³»åˆ—æ•™ç¨‹æºç 
 
 ------
 
 
-### Ê¾Àı
- - OpenGL-Start  µÚÒ»¸ö´°¿Ú
+### å®‰è£…ã€é…ç½®
+ - glfw [GLFWä¸‹è½½](http://www.glfw.org/)
 
- - OpenGL-Triangle  Ğı×ªµÄÈı½ÇĞÎ
+ - glad [GLADä¸‹è½½](https://glad.dav1d.de/)
 
- - OpenGL-Light  ×ÔÓÉĞı×ªµÄÁ¢·½Ìå
+ - glm  [GLMä¸‹è½½](https://github.com/g-truc/glm/)
 
- - OpenGL-Light  »ù´¡¹âÕÕÏµÍ³
+------
 
- - OpenGL-Material_Light  »ù´¡²ÄÖÊÌùÍ¼ºÍ¶àÖÖ¹âÔ´
+
+### ç¤ºä¾‹
+ - OpenGL-Start  ç¬¬ä¸€ä¸ªçª—å£
+
+ - OpenGL-Triangle  æ—‹è½¬çš„ä¸‰è§’å½¢
+
+ - OpenGL-Light  è‡ªç”±æ—‹è½¬çš„ç«‹æ–¹ä½“
+
+ - OpenGL-Light  åŸºç¡€å…‰ç…§ç³»ç»Ÿ
+
+ - OpenGL-Material_Light  åŸºç¡€æè´¨è´´å›¾å’Œå¤šç§å…‰æº
 
 ------
 
 
 
-¿ª·¢»·¾³windows 7 VS 2013
+å¼€å‘ç¯å¢ƒwindows 7 VS 2013
 
-`×¢Òâ` ´Ë½Ì³Ì½ö½öÊÇÎªÁËÑ§Ï°opengl¶ø±àĞ´£¬ÄÑÃâÓĞºÜ¶à²»×ãÖ®´¦£¬»¹Íû¶à¶àÖ¸Õı¡£
+`æ³¨æ„` æ­¤æ•™ç¨‹ä»…ä»…æ˜¯ä¸ºäº†å­¦ä¹ openglè€Œç¼–å†™ï¼Œéš¾å…æœ‰å¾ˆå¤šä¸è¶³ä¹‹å¤„ï¼Œè¿˜æœ›å¤šå¤šæŒ‡æ­£ã€‚
