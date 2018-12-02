@@ -22,7 +22,7 @@
 
  - OpenGL-Triangle   旋转的三角形
 
- - OpenGL-Light   自由旋转的立方体
+ - OpenGL-Cube   自由旋转的立方体
 
  - OpenGL-Light   基础光照系统
 
