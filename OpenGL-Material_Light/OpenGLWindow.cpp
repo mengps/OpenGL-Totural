@@ -4,7 +4,7 @@
 
 int OpenGLWindow::m_major = 3;
 int OpenGLWindow::m_minor = 3;
-OpenGLWindow::OpenGLProfile OpenGLWindow::m_profile = Compat;
+OpenGLWindow::OpenGLProfile OpenGLWindow::m_profile = Core;
 int OpenGLWindow::m_samples = 4;
 
 OpenGLWindow::OpenGLWindow()

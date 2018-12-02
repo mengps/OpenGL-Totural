@@ -140,7 +140,7 @@ void MyRender::initializeGL()
 {
 	initializeShader();
 	initializeTexture();
-	initializeTriangle();
+	initializeCube();
 
 	glEnable(GL_CULL_FACE);
 	glEnable(GL_DEPTH_TEST);
@@ -213,7 +213,7 @@ void MyRender::initializeTexture()
 	else std::cout << "Open specular image Error!";
 }
 
-void MyRender::initializeTriangle()
+void MyRender::initializeCube()
 {
 	glm::vec3 normal1 = glm::cross(glm::vec3(0.75f, -0.75f, 0.75f) - glm::vec3(-0.75f, -0.75f, 0.75f),
 		glm::vec3(-0.375f, 0.75f, 0.375f) - glm::vec3(-0.75f, -0.75f, 0.75f));
@@ -271,7 +271,7 @@ void MyRender::initializeTriangle()
 		20, 20, 21, 22, 23
 	};
 
-	glGenBuffers(1, &m_cubeVao);
+	glGenVertexArrays(1, &m_cubeVao);
 	glBindVertexArray(m_cubeVao);
 
 	glGenBuffers(1, &m_vbo);
@@ -290,7 +290,7 @@ void MyRender::initializeTriangle()
 	glVertexAttribPointer(location + 2, 3, GL_FLOAT, GL_TRUE, sizeof(VertexData), (void *)(sizeof(glm::vec3) + sizeof(glm::vec2)));
 	glEnableVertexAttribArray(location + 2);
 
-	glGenBuffers(1, &m_lampVao);
+	glGenVertexArrays(1, &m_lampVao);
 	glBindVertexArray(m_lampVao);
 	glBindBuffer(GL_ARRAY_BUFFER, m_vbo);
 

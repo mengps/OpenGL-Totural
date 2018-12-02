@@ -5,7 +5,7 @@ Release/
 *.opensdf
 *.sdf
 *.sln
-
+*.vs
 *.vcxproj
 *.filters
 *.user

@@ -9,14 +9,14 @@ class MyRender : public OpenGLRender
 {
 public:
 	MyRender(Camera *camera);
-    ~MyRender();
+	~MyRender();
 
 	void render();
 	void resizeGL(int w, int h);
 	void initializeGL();
 	void initializeShader();
 	void initializeTexture();
-	void initializeTriangle();
+	void initializeCube();
 
 private:
 	GLuint m_diffuseTexture, m_specularTexture;

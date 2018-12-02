@@ -221,7 +221,7 @@ void MyRender::initializeCube()
 		20, 20, 21, 22, 23
 	};
 
-	glGenBuffers(1, &m_vao);
+	glGenVertexArrays(1, &m_vao);
 	glBindVertexArray(m_vao);
 
 	glGenBuffers(1, &m_vbo);
