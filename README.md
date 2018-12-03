@@ -28,6 +28,8 @@
 
  - OpenGL-Material_Light   基础材质贴图和多种光源
 
+ - OpenGL-Model  模型加载
+
 ------
 
 
